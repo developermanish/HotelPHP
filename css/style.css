@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#whole{
+    background: url('../img/bg2.jpg');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+#full{
+    width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    margin-left: 10%;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+/* ul li{
+    float: left;
+    list-style: none;
+    width: 14%;
+    height: 50px;
+    line-height: 70px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+} */
+#banner{
+    width: 100%;
+    height: 200px;
+   
+}
+#f1{
+    width: 100%;
+    height: 150px;
+    background-color: silver;
+}
+#welcome{
+    width: 100%;
+    height: auto;
+}
+#headingTwo{
+    margin-top: 5%;
+    text-align: center;
+}
+#welcomeData{
+    margin-top: 2%;
+    text-align: center;
+}
+#g1{
+    width:100%;
+    height: 500px;  
+}
+
+#one{
+    width: 33%;
+    height: auto;
+    float: left;
+}
+#two{
+    width: 33%;
+    height: auto;
+    float: left;
+}
+#three{
+    width: 33%;
+    height: auto;
+    float: left;
+}
+
+#form
+{
+	width: 600px;
+	padding-top: 100px;
+	height: auto;
+}
+td
+{
+	width: 300px;
+	height: 50px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+ }
